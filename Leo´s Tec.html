@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html><en>
+
+<head>
+<title>Leo's Tec</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<style>
+ 
+
+body {
+  font-family: Arial;
+  background: #f5020211;
+  background-image: url(https://th.bing.com/th/id/R.a761ab8f15596856dd15fcd33c7e9370?rik=OOO19c4Tb4xOhA&pid=ImgRaw&r=0);
+  background-repeat:repeat;
+  background-attachment:local;
+  background-position:center; 
+  background-size: contain;
+  background-color: #00000083;
+  margin: 0;
+}
+
+.primeiraborda {
+  overflow: hidden;
+  background-color: rgb(21, 6, 34);
+  
+}
+
+.primeiraborda a {
+  float: left;
+  display: block; 
+  position: sticky;
+  color: #fcfcfc;
+  text-align: top;
+  padding: 17px 19px;
+  text-decoration:dotted;
+  margin-top: 0;
+}
+
+.primeiraborda a:hover {
+  background-color: rgb(250, 29, 0);
+  color: rgb(0, 0, 0);
+  padding-top: 0px;
+
+}
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+  border: 2px black;
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #fa010105;
+  padding-left: 20px;
+}
+
+.fakeimg {
+  background-color: #fa010100;
+  width: 100%;
+  padding: 20px;
+  color: #f8f8fa;
+}
+
+.card {
+  background-color: #fa010100;
+  padding:20px;
+  margin-top:20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+    border: 2px black;
+  }
+}
+
+.h2 {
+color: aliceblue;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.h5{
+color: aliceblue;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+padding: 0;
+}
+
+.p {
+color: aliceblue;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    background-color: rgba(248, 0, 0, 0.041);
+  }
+
+li {
+  float: left;
+}
+
+.active {
+  background-color: rgb(230, 24, 24);
+}
+
+.active a{
+color: antiquewhite;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid rgba(204, 204, 204, 0.144);
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid rgba(119, 119, 119, 0.096);
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: #f8f8fa;
+}
+
+.coluna {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+.rodape {
+background-color: rgb(2, 1, 1);
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+padding-bottom: 100px;
+overflow:hidden;
+padding: 10;
+position:static;
+left: 0;
+bottom: 0;
+width: 100%;
+color: rgb(243, 3, 3);
+text-align: center;
+}
+
+.rodape a{
+  float: left;
+  display:flex;
+  color: #fa0202;
+  text-align: center;
+  padding: 0px 0px;
+  text-decoration: none;
+}
+
+.rodape a:hover{
+background-color: rgb(250, 29, 0);
+color: rgb(66, 63, 63);
+}
+
+.active{
+  background-color: #fa0202;
+  font-size: 22px ;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.alienware{
+color: #fa0202;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.borda{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.cod{
+  color: red;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.link:link, .link:visited {
+  background-color: rgb(250, 1, 1);
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.link:hover, .link:active {
+  background-color: green;
+  color: white;
+}
+
+.link2:link, .link2:visited {
+  background-color: rgb(250, 1, 1);
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.link2:hover, .link2:active {
+  background-color: green;
+  color: white;
+}
+
+.link3:link, .link3:visited {
+  background-color: rgb(250, 1, 1);
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.link3:hover, .link3:active {
+  background-color: green;
+  color: white;
+}
+
+.link4:link, .link4:visited {
+  background-color: rgb(250, 1, 1);
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.link4:hover, .link4:active {
+  background-color: green;
+  color: white;
+}
+
+.link5:link, .link5:visited {
+  background-color: rgb(250, 1, 1);
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.link5:hover, .link5:active {
+  background-color: green;
+  color: white;
+}
+
+.link6:link, .link6:visited {
+  background-color: rgb(250, 1, 1);
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.link6:hover, .link6:active {
+  background-color: green;
+  color: white;
+}
+
+.link7:link, .link7:visited {
+  background-color: rgb(250, 1, 1);
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.link7:hover, .link7:active {
+  background-color: green;
+  color: white;
+}
+
+.link8:link, .link8:visited {
+  background-color: rgb(250, 1, 1);
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.link8:hover, .link8:active {
+  background-color: green;
+  color: white;
+}
+
+.link9:link, .link9:visited {
+  background-color: rgb(250, 1, 1);
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.link9:hover, .link9:active {
+  background-color: green;
+  color: white;
+}
+
+.propaganda{
+  color: aliceblue;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.p1{
+color: rgba(250, 198, 198, 0.637);
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+
+.cods { 
+  color: #fa0202;
+}
+
+</style>
+</head>
+
+<body>
+<div class="primeiraborda"> 
+  <li style="float:left">
+  <h6><a class="active" href="Leostec.html" style="float:left">LEO'S TEC</a>
+  <a class="borda" href="link">Jogos</a>
+  <a class="borda" href="link">Celulares</a>
+  <a class="borda" href="link">Computadores</a>
+  <a class="borda" href="link">Monitores</a>
+  <a class="borda" href="link">Consoles</a>
+  <a class="borda" href="link">Controles</a>
+  <a class="borda" href="link">Drones</a>
+  <a class="borda" href="link">Tablet's</a>
+  <a class="borda" href="link">Notebooks</a>
+  <a class="borda" href="link" >Suporte</a>
+  <a class="borda" href="link">Contato</a>
+  
+
+  <a class="borda" href="Cadastre-se.html" style="float:right">Cadastre-se</a> 
+</div></h6>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2 class="h2">CALL OF DUTY - <a class="cods">VANGUARD</a></h2>
+      <h5 class="h5"><R1>R$ 419,90</R1></h5>
+      <div class="fakeimg" style="height: 450px;"> <a target="_blank" href="https://www.callofduty.com/br/pt/vanguard/buy">
+       <img src="https://th.bing.com/th/id/R.fa3b4a6d8826e2ee504f75a7fd954005?rik=KJEJX4uPCDqj2g&pid=ImgRaw&r=0" alt="COD" height="400" width="720"></div>
+       <a class="link" href="https://www.callofduty.com/br/pt/vanguard/buy" target="_blank">Compre já</a>
+      <p class="p">...</p>
+      <p class="p">A premiada série Call of Duty® retorna com o Call of Duty®: Vanguard, no qual os jogadores vão viver batalhas decisivas da Segunda Guerra Mundial enquanto lutam pela vitória nas Frentes Oriental e Ocidental da Europa, no Pacífico e no Norte da África.</p>
+    </div>
+    <div class="card">
+      <h2 class="h2">BATTLEFIELD 2042</h2>
+      <h5 class="h5"><R1>R$ 249,90</R1></h5>
+      <div class="fakeimg" style="height:280px;"> <a target="_blank" href="https://www.ea.com/pt-br/games/battlefield/battlefield-2042/buy/pc">
+      <img src="https://d2ofqe7l47306o.cloudfront.net/games/1920x1080/battlefield-2042-key-art-02.jpg" alt="BTF" height="240" width="720"></div>
+      <a class="link2" href="https://www.ea.com/pt-br/games/battlefield/battlefield-2042/buy/pc" target="_blank">Compre já</a>
+      <p class="p">...</p>
+      <p class="p">Os campos de batalha estão mudando diante dos seus olhos. Um arsenal de ponta à sua disposição. A guerra total está de volta. Adapte-se e supere em batalhas massivas de 128 pessoas*, em que tempestades dinâmicas, perigos ambientais, liberdade total de combate e a destruição característica de Battlefield™ criam uma nova geração de Somente no Battlefield™.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2 class="h2">Rocket League</h2>
+      <div class="fakeimg" style="height:220px;"> <a target="_blank" href="https://www.rocketleague.com/">
+        <img src="https://mp1st.com/wp-content/uploads/2017/09/rocketleagueupdate.jpg" alt="Rocket League" height= 170 width="250"></div>
+        <a class="link3" href="https://www.rocketleague.com/" target="_blank">Grátis</a>
+      <p class="p">BEM-VINDO AO JOGO DE ALTA POTÊNCIA, ESTILO ARCADE DE FUTEBOL E CAOS AUTOMOBILÍSTICO!
+
+        PERSONALIZE SEU CARRO, ENTRE EM CAMPO E COMPITA EM UM DOS JOGOS DE ESPORTES MAIS ACLAMADOS PELA CRÍTICA DE TODOS OS TEMPOS!</p>
+    </div>
+    <div class="card">
+      <h3 class="h2">Os melhores Notebooks gamer para você!</h3> <a href="https://www.dell.com/pt-br/shop/notebooks/notebook-gamer-alienware-x17-r2/spd/alienware-x17-r2-laptop/ax17r230w">
+      <img src="https://media2.giphy.com/media/Yldas00h8bQ69xdYJM/giphy.gif" alt="notebook Alienware " height="170" width="250">
+      <p class="p">Notebook Alienware X17 R2 <br>Por apenas: R$ 38.699,00 </p>
+      
+    </div>
+    <div class="card">
+      <h3 class="propaganda">Aqui você encontra os melhores celulares para sua experiência gamer!!</h3>
+      <p class="p"></p>
+    </div>
+  </div>
+
+
+
+  <div class="leftcolumn">
+    <div class="card">
+      <h2 class="h2">FORZA HORIZON 5 PREMIUN EDITION</h2>
+      <h5 class="h5"><R1>$ 84,99</R1></h5>
+      <div class="fakeimg" style="height: 450px;"> <a target="_blank" href="https://www.xbox.com/en-US/games/forza-horizon-5#purchaseoptions">
+       <img src="https://i.ytimg.com/vi/37sZi2DEcok/maxresdefault.jpg" alt="COD" height="390" width="720"></div>
+       <a class="link4" href="https://www.xbox.com/en-US/games/forza-horizon-5#purchaseoptions" target="_blank">Compre já</a>
+      <p class="p">Sua maior aventura Horizon te espera! Lidere impressionantes expedições pelo mundo aberto vibrante e em constante evolução nas terras mexicanas. Participe de corridas divertidas e sem limites enquanto pilota centenas dos melhores carros do mundo.</p>
+      <p class="p">........</p>
+    </div> 
+    <div class="card">
+      <h2 class="h2">RED DEAD REDEMPTION 2</h2>
+      <h5 class="h5"><R1>R$ 249,90</R1></h5>
+      <div class="fakeimg" style="height:280px;"> <a target="_blank" href="https://www.rockstargames.com/reddeadredemption2/order">
+      <img src="https://th.bing.com/th/id/R.6bdc5453117cbe34c01359a9931058a1?rik=MmKQ1auO2nrjSQ&pid=ImgRaw&r=0" alt="rdr" height="250" width="720"></div>
+      <a class="link5" href="https://www.rockstargames.com/reddeadredemption2/order" target="_blank">Compre já</a>
+      <p class="p">America, 1899. The end of the Wild West era has begun. After a robbery goes badly wrong in the western town of Blackwater, Arthur Morgan and the Van der Linde gang are forced to flee. With federal agents and the best bounty hunters in the nation massing on their heels, the gang must rob, steal and fight their way across the rugged heartland of America in order to survive. As deepening internal divisions threaten to tear the gang apart, Arthur must make a choice between his own ideals and loyalty to the gang who raised him.</p>
+      <p class="p">________________________________________________________________________________________________________</p>
+    </div>
+  </div>
+  
+  <div class="rightcolumn">
+    <div class="card">
+      <h2 class="h2">Controles para jogar com a galera</h2>
+      <div class="fakeimg" style="height:220px;"> <a target="_blank" href="LINK">
+        <img src="https://th.bing.com/th/id/R.b36ecf3400753a1ed0538d3261500e37?rik=TLJPOn4J8h27mw&pid=ImgRaw&r=0" alt="Rocket League" height= 170 width="250"></div>
+        <a class="link6" href="LINK" target="_blank">Adquira aqui</a>
+      <p class="p">PLAYSTATION | XBOX | NINTENDO | PC </p>
+    </div>
+    <div class="card">
+      <h3 class="h2">Os melhores Notebooks gamer para você!</h3>
+      <img src="https://media2.giphy.com/media/Yldas00h8bQ69xdYJM/giphy.gif" alt="notebook Alienware " height="170" width="250">
+      <p class="p">Notebook Alienware X17 R2 <br>Por apenas: R$ 38.699,00 </p>
+    </div>
+    <div class="card">
+      <h3 class="h2">Headset</h3>
+      <IMG SRC="https://th.bing.com/th/id/R.ade05971ed6dac7ae90c26d9b7d0d874?rik=2t96tLzN%2fFLDeg&pid=ImgRaw&r=0" height="200" width="250">
+      <p class="p">Fone headset gamer</p>
+      <p class="p"></p>
+    </div>
+  </div>
+
+
+
+  <div class="leftcolumn">
+    <div class="card">
+      <h2 class="h2">PLAYSTATION 5</h2>
+      <h5 class="h5"><R1>R$ 6.323,91</R1></h5>
+      <div class="fakeimg" style="height: 450px;"> <a target="_blank" href="link">
+       <img src="https://media0.giphy.com/media/hYW1hObSEgLU0Mg1xZ/source.gif" alt="COD" height="400" width="720"></div>
+       <a class="link7" href="link" target="_blank">Compre já</a>
+      <p class="p">Console PS5™</p>
+      <p class="p">Desfrute do carregamento extremamente rápido com o SSD de altíssima velocidade, uma imersão mais profunda com suporte resposta tátil, gatilhos adaptáveis e áudio em 3D1, além de uma geração inédita de jogos incríveis para PlayStation.</p>
+    </div> 
+    <div class="card">
+      <h2 class="h2">XBOX SERIES X</h2>
+      <h5 class="h5"><R1>R$ 5.369,90</R1></h5>
+      <div class="fakeimg" style="height:450px;"> <a target="_blank" href="link">
+      <img src="https://media.giphy.com/media/gHWT7cA7rRxwagVsPa/giphy.gif" alt="BTF" height="400" width="720"></div>
+      <a class="link8" href="link" target="_blank">Compre já</a>
+      <p class="p">O XBOX SERIES X foi construído para ser o console mais rápido e poderoso de todos os tempos da empresa, e chega para definir um novo padrão de desempenho, velocidade e compatibilidade, permitindo levar seu legado e milhares de jogos de três gerações e a que ainda virá. Sendo assim, será um console, com quatro gerações de jogos.</p>
+      <p class="p">....</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2 class="h2">Rocket League</h2>
+      <div class="fakeimg" style="height:220px;"> <a target="_blank" href="https://www.rocketleague.com/">
+        <img src="https://mp1st.com/wp-content/uploads/2017/09/rocketleagueupdate.jpg" alt="Rocket League" height= 170 width="250"></div>
+        <a class="link9" href="https://www.rocketleague.com/" target="_blank">Adquira aqui</a>
+      <p class="p">................</p>
+    </div>
+    <div class="card">
+      <h3 class="h2">Os melhores Notebooks gamer para você!</h3>
+      <img src="https://media2.giphy.com/media/Yldas00h8bQ69xdYJM/giphy.gif" alt="notebook Alienware " height="170" width="250">
+      <p class="p">Notebook Alienware X17 R2 <br>Por apenas: R$ 38.699,00 </p>
+      
+    </div>
+    <div class="card">
+      <h3 class="h2">SIGA-NOS NAS REDES SOCIAIS</h3>
+      <p class="p">IG: oamigoleo</p>
+      <p class="p"></p>
+    </div>
+  </div>
+</div>
+<hr>
+
+<div class="coluna">
+  <h2 class="alienware">Alienware</h2>
+    <a target="blank" href="link.img">
+      <img src="https://th.bing.com/th/id/R.0fbc89c12ceb8d4b206be307d073b3ed?rik=RMCRD2FhzC3xrA&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fBN345dv.jpg&ehk=6ARTJqqx4hv87cem%2fspTXJkD7z5kMZ5abqIyWGD9eFY%3d&risl=&pid=ImgRaw&r=0"
+       alt="Alienware" width="1500" height="500">
+     </a>
+  </div>
+  <br>
+
+<div class="rodape">
+  <h2 class="borda">Desenvolvido por</h2>
+  <p class="p1"> Leo's Tec - IG: oamigoleo - Rua Antônio Ramos Rosa - São Paulo - SP - 05822-010 </p>
+  <br>
+  <p class="p1">Informações para contato: leostec@outlook.com.br</p>
+  <p class="p1">Copyright (a) 2022. Leo's tec. Todos os direitos Reservados.</p>
+</div>
+<hr>
+
+</body>
+</html>
