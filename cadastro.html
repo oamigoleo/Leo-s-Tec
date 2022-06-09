@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="style.css">
+<style>
+
+  
+input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 50%;
+  background-color: #e40000;
+  color: rgb(255, 255, 255);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  
+}
+
+input[type=submit]:hover {
+  background-color: #a04545;
+}
+
+.corpo {
+  border-radius: 10px;
+  background-color: #f2f2f200;
+  padding: 50px;
+  position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+label[for=fname], label[for=lname], label[for=User], label[for=country], label[for=mail] {
+color: aliceblue;
+
+}
+</style>
+
+ <div class="primeiraborda"> 
+    <li style="float:left">
+    <h6><a class="borda" href="index.html">LEO'S TEC</a>
+    <a class="borda" href="Jogos.html" target="_blank">Jogos</a>
+    <a class="borda" href="Celulares.html" target="_blank">Celulares</a>
+    <a class="borda" href="Computadores.html" target="_blank">Computadores</a>
+    <a class="borda" href="Monitores.html" target="_blank">Monitores</a>
+    <a class="borda" href="Consoles.html" target="_blank">Consoles</a>
+    <a class="borda" href="Controles.html"target="_blank">Controles</a>
+    <a class="borda" href="Drones.html"target="_blank">Drones</a>
+    <a class="borda" href="Tablets.html"target="_blank">Tablet's</a>
+    <a class="borda" href="Notebooks.html"target="_blank">Notebooks</a>
+    <a class="borda" href="Suporte.html"target="_blank">Suporte</a>
+    <a class="borda" href="Contato.html"target="_blank" >Contato</a>
+    <a class="active" href="login.html" target= style="float:right">Login</a> 
+  </h6></div>
+  
+
+<body>
+
+<div class="corpo">
+  <form method="post">
+    <label for="fname">Primeiro nome</label>
+    <input type="text" id="fname" name="firstname" placeholder="Seu nome.."><br>
+
+    <label for="lname">Sobrenome</label>
+    <input type="text" id="lname" name="lastname" placeholder="Último nome.."><br>
+
+    
+    <label for="User">Usuário</label>
+    <input type="text" id="user" name="useer" placeholder="Usuário.."><br>
+
+    <label for="mail">E-mail</label>
+    <input type="text" id="email" name="mail" placeholder="E-mail"><br>
+
+
+    <label for="country">País</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="bra">Brasil</option>
+      <option value="por">Portugal</option>
+      <option value="col">Colombia</option>
+      <option value="chi">China</option>
+      <option value="rus">Russia</option>
+      <option value="nor">Noruega</option>
+      <option value="moc">Moçambique</option>
+      <option value="Eua">Estados Unidos</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
+

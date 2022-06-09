@@ -1,0 +1,359 @@
+body {
+    font-family: Arial;
+    background: #f5020211;
+    background-image: url(https://th.bing.com/th/id/R.b6ca67ed5fb2233ad080d47d25c35cb7?rik=ShfC51HqmQldpw&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fd%2fe%2fc%2f1444101-download-free-4k-games-wallpaper-3840x2160-for-macbook.jpg&ehk=OFPMIUBZM1%2bkOeK60bJc9o1iNBAOL3rV5WGE8ACpL3Q%3d&risl=&pid=ImgRaw&r=0) ;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center; 
+    background-size: 100% 100%;
+    background-color: #00000083;
+    margin: 0;
+    
+  }
+  
+  img{
+    border-radius: 8%;
+
+  }
+
+
+
+  .primeiraborda {
+    overflow: hidden;
+    background-color: rgb(21, 6, 34);
+  }
+  
+  .primeiraborda a {
+    float: left;
+    display: block; 
+    position: sticky;
+    color: #fcfcfc;
+    text-align: top;
+    padding: 17px 19px;
+    text-decoration:dotted;
+    margin-top: 0;
+  }
+  
+  .primeiraborda a:hover {
+    background-color: rgb(250, 29, 0);
+    color: rgb(0, 0, 0);
+    padding-top: 0px;
+  }
+
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+    border: 2px black;
+  }
+  
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #fa010105;
+    padding-left: 20px;
+    border-radius: 50%;
+  }
+  
+  .fakeimg {
+    background-color: #fa010100;
+    width: 100%;
+    padding: 20px;
+    color: #f8f8fa;
+  }
+  
+  .card {
+    background-color: #fa010100;
+    padding:20px;
+    margin-top:20px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+      border: 2px black;
+    }
+  }
+  
+  .h2 {
+  color: aliceblue;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .h5{
+  color: aliceblue;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 0;
+  }
+  
+  .p {
+  color: aliceblue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 20px;
+      overflow: hidden;
+      background-color: rgba(248, 0, 0, 0.041);
+    }
+  
+  li {
+    float: left;
+  }
+  
+  .active {
+    background-color: rgb(250, 29, 0);
+    font-size: 22px ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+  div.gallery {
+    margin: 5px;
+    border: 1px solid rgba(204, 204, 204, 0.144);
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid rgba(119, 119, 119, 0.096);
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    color: #f8f8fa;
+  }
+  
+  .coluna {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+  }
+  
+  .rodape {
+  background-color: rgb(2, 1, 1);
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding-bottom: 100px;
+  overflow:hidden;
+  padding: 10;
+  position:static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: rgb(243, 3, 3);
+  text-align: center;
+  }
+  
+  .rodape a{
+    float: left;
+    display:flex;
+    color: #fa0202;
+    text-align: center;
+    padding: 0px 0px;
+    text-decoration: none;
+  }
+  
+  .rodape a:hover{
+  background-color: rgb(250, 29, 0);
+  color: rgb(66, 63, 63);
+  }
+  
+  
+  
+  .alienware{
+  color: #fa0202;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+  }
+  
+  .borda{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .cod{
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .link:link, .link:visited {
+    background-color: rgb(250, 1, 1);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .link:hover, .link:active {
+    background-color: green;
+    color: white;
+  }
+  
+  .link2:link, .link2:visited {
+    background-color: rgb(250, 1, 1);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .link2:hover, .link2:active {
+    background-color: green;
+    color: white;
+  }
+  
+  .link3:link, .link3:visited {
+    background-color: rgb(250, 1, 1);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .link3:hover, .link3:active {
+    background-color: green;
+    color: white;
+  }
+  
+  .link4:link, .link4:visited {
+    background-color: rgb(250, 1, 1);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .link4:hover, .link4:active {
+    background-color: green;
+    color: white;
+  }
+  
+  .link5:link, .link5:visited {
+    background-color: rgb(250, 1, 1);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .link5:hover, .link5:active {
+    background-color: green;
+    color: white;
+  }
+  
+  .link6:link, .link6:visited {
+    background-color: rgb(250, 1, 1);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .link6:hover, .link6:active {
+    background-color: green;
+    color: white;
+  }
+  
+  .link7:link, .link7:visited {
+    background-color: rgb(250, 1, 1);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .link7:hover, .link7:active {
+    background-color: green;
+    color: white;
+  }
+  
+  .link8:link, .link8:visited {
+    background-color: rgb(250, 1, 1);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .link8:hover, .link8:active {
+    background-color: green;
+    color: white;
+  }
+  
+  .link9:link, .link9:visited {
+    background-color: rgb(250, 1, 1);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .link9:hover, .link9:active {
+    background-color: green;
+    color: white;
+  }
+  
+  .propaganda{
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .p1{
+  color: rgba(250, 198, 198, 0.637);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+  }
+  
+  .cods { 
+    color: #fa0202;
+  }
+
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+  }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
